@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.dependency 'React'
   s.dependency 'SwiftyJSON', '5.0'
-  s.dependency 'DGCharts', '5.0.0'
+  s.dependency 'DGCharts', :podspec => "https://github.com/ngoclamsn1998napa/Charts/blob/master/DGCharts.podspec"
 
 
 end
